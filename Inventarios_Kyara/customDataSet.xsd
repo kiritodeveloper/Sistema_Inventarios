@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="customDataSet" targetNamespace="http://tempuri.org/customDataSet.xsd" xmlns:mstns="http://tempuri.org/customDataSet.xsd" xmlns="http://tempuri.org/customDataSet.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" GeneratorFunctionsComponentClassName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" UserFunctionsComponentName="QueriesTableAdapter" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="InventarioKyaraConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="InventarioKyaraConnectionString (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.Inventarios_Kyara.Properties.Settings.GlobalReference.Default.InventarioKyaraConnectionString" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="customDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="customDataSet" msprop:Generator_UserDSName="customDataSet">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="customArtsDT" msprop:Generator_TableClassName="customArtsDTDataTable" msprop:Generator_TableVarName="tablecustomArtsDT" msprop:Generator_TablePropName="customArtsDT" msprop:Generator_RowDeletingName="customArtsDTRowDeleting" msprop:Generator_RowChangingName="customArtsDTRowChanging" msprop:Generator_RowEvHandlerName="customArtsDTRowChangeEventHandler" msprop:Generator_RowDeletedName="customArtsDTRowDeleted" msprop:Generator_UserTableName="customArtsDT" msprop:Generator_RowChangedName="customArtsDTRowChanged" msprop:Generator_RowEvArgName="customArtsDTRowChangeEvent" msprop:Generator_RowClassName="customArtsDTRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Codigo" msprop:Generator_ColumnVarNameInTable="columnCodigo" msprop:Generator_ColumnPropNameInRow="Codigo" msprop:Generator_ColumnPropNameInTable="CodigoColumn" msprop:Generator_UserColumnName="Codigo" type="xs:string" minOccurs="0" />
+              <xs:element name="Marca" msprop:Generator_ColumnVarNameInTable="columnMarca" msprop:Generator_ColumnPropNameInRow="Marca" msprop:Generator_ColumnPropNameInTable="MarcaColumn" msprop:Generator_UserColumnName="Marca" type="xs:string" minOccurs="0" />
+              <xs:element name="Tipo" msprop:Generator_ColumnVarNameInTable="columnTipo" msprop:Generator_ColumnPropNameInRow="Tipo" msprop:Generator_ColumnPropNameInTable="TipoColumn" msprop:Generator_UserColumnName="Tipo" type="xs:string" minOccurs="0" />
+              <xs:element name="Precio" msprop:Generator_ColumnVarNameInTable="columnPrecio" msprop:Generator_ColumnPropNameInRow="Precio" msprop:Generator_ColumnPropNameInTable="PrecioColumn" msprop:Generator_UserColumnName="Precio" type="xs:string" minOccurs="0" />
+              <xs:element name="Descripcion" msprop:Generator_ColumnVarNameInTable="columnDescripcion" msprop:Generator_ColumnPropNameInRow="Descripcion" msprop:Generator_ColumnPropNameInTable="DescripcionColumn" msprop:Generator_UserColumnName="Descripcion" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
