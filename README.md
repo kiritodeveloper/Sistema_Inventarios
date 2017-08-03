@@ -10,5 +10,7 @@ Imagen 1 - Módulo Artículos
 Imagen 2 - Módulo Configuración
 ![Alt text](/Screenshots/6.PNG?raw=true "Módulo Configuración") 
   
-Imagen 2 - Reporte de Existencias
+Imagen 3 - Reporte de Existencias
 ![Alt text](/Screenshots/7.PNG?raw=true "Reporte") 
+  
+Este repositorio muestra unicamente código de ejemplo. Para mas información contactar a rojas.github@gmail.com .
