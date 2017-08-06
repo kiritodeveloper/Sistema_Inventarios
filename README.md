@@ -2,7 +2,7 @@
 El presente sistema fue creado para la compañía Importaciones Kyara S.A con el propósito de proveer una herramienta capaz 
 de insertar, modificar, eliminar y consultar artículos de un inventario de indumentaria femenina. 
   
-Este fue programado usando Visual Studio Community con el lenguaje C# WPF, y utilizando SQL Server como base de datos. 
+Este fue programado usando Visual Studio 2015 Community con el lenguaje C#, WPF, y utilizando SQL Server 2014 como base de datos. 
 
 Imagen 1 - Módulo Artículos
 ![Alt text](/Screenshots/2.PNG?raw=true "Módulo Artículos") 
